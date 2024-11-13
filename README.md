@@ -1,2 +1,61 @@
-# BOLT
-Household Electricity Consumption Prediction and Anomaly Detection
+# Electricity Meter Reading Prediction
+
+This repository contains a project for predicting electricity meter readings using various machine learning and deep learning models. The project includes data filtering, preprocessing, and time-series forecasting techniques applied to electricity consumption data for Building ID 779.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Project Workflow](#project-workflow)
+- [Models Used](#models-used)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+### Project Overview
+This project aims to predict electricity meter readings by analyzing time-series data. It utilizes ARIMA, Random Forest, GRU, and LSTM models to compare their performance on electricity consumption forecasts. The models help in understanding seasonal trends and detecting anomalies, making it easier to manage energy consumption.
+
+### Dataset
+The dataset includes four columns:
+- **building_id**: Unique identifier for each building.
+- **meter**: Type of meter (only electricity meter data with `meter=0` is used in this project).
+- **timestamp**: Date and time of the meter reading.
+- **meter_reading**: Recorded electricity consumption.
+
+**Data Preprocessing Steps:**
+1. Filter data for electricity meter readings (`meter=0`).
+2. Convert meter readings to kWh by multiplying by 0.2931.
+3. Split data into training and testing sets (80-20 split) for model training and evaluation.
+
+### Project Workflow
+1. **Data Filtering and Conversion**: Filtered electricity data is saved in `filtered_electricity_data.csv`. Data for building 779 is further saved in `filtered_electricity779_data.csv` and converted to kWh in `building_779_updated_meter_reading.csv`.
+2. **Data Visualization**: Plots distributions of numerical columns and uses descriptive statistics to summarize the data.
+3. **Modeling**:
+   - **ARIMA** for time-series forecasting.
+   - **Random Forest** for regression.
+   - **GRU** and **LSTM** for sequence learning.
+4. **Evaluation**: Measures error metrics and compares model predictions against actual meter readings.
+5. **Anomaly Detection**: Detects anomalies by analyzing residuals of model predictions.
+
+### Models Used
+- **ARIMA**: A classic time-series forecasting model, suited for data with trends and seasonality.
+- **Random Forest**: An ensemble method that averages multiple decision tree predictions to improve accuracy.
+- **GRU (Gated Recurrent Unit)**: A type of recurrent neural network (RNN) that captures sequential dependencies in time-series data.
+- **LSTM (Long Short-Term Memory)**: Another RNN variant with memory cells, designed to handle long-term dependencies.
+
+### Evaluation Metrics
+To assess model performance, the following metrics are used:
+- **Mean Absolute Error (MAE)**
+- **Mean Squared Error (MSE)**
+- **Root Mean Squared Error (RMSE)**
+- **Mean Absolute Percentage Error (MAPE)**
+
+### Usage
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/electricity-meter-reading-prediction.git
+cd electricity-meter-reading-prediction
+```
