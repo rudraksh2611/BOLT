@@ -1,7 +1,12 @@
 # BOLT
 
 About this Research Project :
-https://github.com/user-attachments/assets/a0440d3e-1a35-44d0-8966-2dcb6db5abd8
+
+
+https://github.com/user-attachments/assets/67569b86-8ac2-49f1-a91b-cf18655b6c30
+
+
+
 
 ## Introduction:
 BOLT (Billing Overload and Load Tracking) is a predictive model designed to address the common problem of unexpectedly high electricity bills, despite no significant increase in usage. The project was conceived by Rudraksh Singh Bhadauria after observing this issue personally and with others around him. Many people, including Rudraksh's family and acquaintances, noticed that their electricity bills were suddenly much higher than usual, even though their consumption patterns remained consistent.
