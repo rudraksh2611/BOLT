@@ -1,6 +1,11 @@
 # Electricity Meter Reading Prediction
 
-This repository contains a project for predicting electricity meter readings using various machine learning and deep learning models. The project includes data filtering, preprocessing, and time-series forecasting techniques applied to electricity consumption data for Building ID 779.
+About this Research Project :
+
+
+https://github.com/user-attachments/assets/a0440d3e-1a35-44d0-8966-2dcb6db5abd8
+
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
