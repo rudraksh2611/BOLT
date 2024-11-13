@@ -1,11 +1,12 @@
-# Electricity Meter Reading Prediction
+# BOLT
 
 About this Research Project :
-
-
 https://github.com/user-attachments/assets/a0440d3e-1a35-44d0-8966-2dcb6db5abd8
 
+## Introduction:
+BOLT (Billing Overload and Load Tracking) is a predictive model designed to address the common problem of unexpectedly high electricity bills, despite no significant increase in usage. The project was conceived by Rudraksh Singh Bhadauria after observing this issue personally and with others around him. Many people, including Rudraksh's family and acquaintances, noticed that their electricity bills were suddenly much higher than usual, even though their consumption patterns remained consistent.
 
+This motivated Rudraksh to develop a solution that would predict electricity consumption and flag anomalies in billing. BOLT uses machine learning and deep learning techniques to predict future consumption and detect when a bill exceeds the usual amount, indicating potential errors. The goal is to empower users to identify discrepancies and take action by reaching out to utility providers or government authorities to resolve billing issues.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
