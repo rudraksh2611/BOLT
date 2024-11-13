@@ -78,6 +78,18 @@ Review the printed evaluation metrics to compare models.
 Use the anomaly detection step to identify data points deviating significantly from the predicted values.
 
 ### Results
+
+![Actual Data Analysis]
+
+![Actual Data Plot](https://github.com/user-attachments/assets/3dc82eb6-c8b4-426a-a5e8-f99b0f3cdfe8)
+
+![GRU Prediction](https://github.com/user-attachments/assets/369db538-fb67-47ee-a3e6-2db3461c6fed)
+
+![LSTM Prediction](https://github.com/user-attachments/assets/c6608c1a-5710-4179-b0bd-68cea1ff0a35)
+
+![Anomaly Detection](https://github.com/user-attachments/assets/1f580958-051d-425c-b120-cbcc3437ffaf)
+
+
 Results are saved and displayed in CSV files, plots, and evaluation metrics. Comparative results for MAE, MSE, RMSE, and MAPE for each model (ARIMA, Random Forest, GRU, LSTM) are provided in the output. The anomaly detection highlights unusual consumption patterns, which could help in energy optimization.
 
 ### Contributing
