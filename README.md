@@ -78,17 +78,18 @@ Review the printed evaluation metrics to compare models.
 Use the anomaly detection step to identify data points deviating significantly from the predicted values.
 
 ### Results
-
-![Actual Data Analysis]
-
+#### 1. Actual Data Analysis After Pre-Processing:
+   ![Actual Data Analysis](https://github.com/user-attachments/assets/de027553-a4c3-4f08-b642-d585b8ddc016)
+#### 2. Raw Data Plot for 779 Building Id:
 ![Actual Data Plot](https://github.com/user-attachments/assets/3dc82eb6-c8b4-426a-a5e8-f99b0f3cdfe8)
-
+#### 3. GRU Prediction:
 ![GRU Prediction](https://github.com/user-attachments/assets/369db538-fb67-47ee-a3e6-2db3461c6fed)
 
+#### 4. LSTM Prediction:
 ![LSTM Prediction](https://github.com/user-attachments/assets/c6608c1a-5710-4179-b0bd-68cea1ff0a35)
-
+#### 5. Anomaly Detection:
 ![Anomaly Detection](https://github.com/user-attachments/assets/1f580958-051d-425c-b120-cbcc3437ffaf)
-
+   
 
 Results are saved and displayed in CSV files, plots, and evaluation metrics. Comparative results for MAE, MSE, RMSE, and MAPE for each model (ARIMA, Random Forest, GRU, LSTM) are provided in the output. The anomaly detection highlights unusual consumption patterns, which could help in energy optimization.
 
