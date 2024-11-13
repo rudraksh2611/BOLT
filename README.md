@@ -59,3 +59,30 @@ To assess model performance, the following metrics are used:
 git clone https://github.com/yourusername/electricity-meter-reading-prediction.git
 cd electricity-meter-reading-prediction
 ```
+#### 2. Install Dependencies
+Install required Python libraries:
+```bash
+pip install -r requirements.txt
+```
+#### 3. Run Data Preprocessing and Modeling
+You can follow the steps in the provided code to:
+
+1. Filter the data by running the data filtering steps.
+2. Use ARIMA, Random Forest, GRU, and LSTM models to forecast meter readings.
+3. Save and view the results.
+
+#### 4. Evaluate Model Performance
+Review the printed evaluation metrics to compare models.
+
+#### 5. Anomaly Detection
+Use the anomaly detection step to identify data points deviating significantly from the predicted values.
+
+### Results
+Results are saved and displayed in CSV files, plots, and evaluation metrics. Comparative results for MAE, MSE, RMSE, and MAPE for each model (ARIMA, Random Forest, GRU, LSTM) are provided in the output. The anomaly detection highlights unusual consumption patterns, which could help in energy optimization.
+
+### Contributing
+If you want to contribute to this project, please fork the repository and submit a pull request.
+
+### License
+This project is licensed under the MIT License.
+
